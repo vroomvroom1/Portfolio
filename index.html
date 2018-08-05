@@ -17,13 +17,13 @@
 
   <section id="this1"></section>
   <header class="v-header container">
-    <div class="fullscreen-video-wrap">
-      <video src="Media/Background_08.mov" autoplay="true" loop="true"></video>
+    <div class="fullscreen-image-wrap">
+      <image src="Media/space.jpg"></image>
     </div>
     <div class="header-overlay"></div>
-    <div class="header-content">
-      <h2>Hello</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quos eligendi corrupti. Inventore debitis nobis fugiat beatae, similique et! Laboriosam quas ab, quasi a molestias ipsa rem sint deleniti officia.</p>
+    <div class="header-content grid-container4">
+      <h2>Welcome to my Portfolio!</h2>
+      <p>Throughout my portfolio website I have included information about myself, several examples of projects I have created with links to the work, and information on my social media. Have fun looking!</p>
       <div class="nav">
         <a href="#this2" class="btn">Read More</a>
       </div>
@@ -37,7 +37,7 @@
       <li><a href="#this1">Home </a></li>
       <li><a href="#this2">About Me </a></li>
       <li><a href="#this3">Projects </a></li>
-      <li><a href="#this4">Blog </a></li>
+    <!--   <li><a href="#this4">Blog </a></li> -->
       <li><a href="#this5">Contact Me </a></li>
     </div>
   </ul>
@@ -47,11 +47,9 @@
   <section id="this2">
     <section class="section section-a">
       <div class="container animatedParent animateOnce">
-        <h1 class="animated fadeInDown underlined_text">About Me</h1>
+        <h1 class="animated fadeIn underlined_text">About Me</h1>
         <div class="grid-container3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eaque blanditiis fuga ab reiciendis facilis, iste quis nihil, quo tenetur dolorem maiores quia cum ducimus quasi eos adipisci. Eaque soluta, libero vitae accusantium pariatur
-            eveniet. Aspernatur consectetur natus delectus quae minus consequatur, id pariatur cumque quas omnis, repellendus laborum, harum molestias at maiores aliquam voluptatum veniam. Asperiores tempore, laboriosam quis provident consectetur assumenda
-            dolorem officiis. Maiores ipsum quidem, sed provident debitis, similique ut vero numquam quisquam tempore eligendi, voluptatum veniam!</p>
+          <p>I am Matt Vroom, a senior computer science student at The University of North Carolina at Charlotte. I will be graduating early in December and am currently looking for a job for when I graduate. My passion for software development stems from my love of creating new things and solving problems in order to make something as efficient as possible. So far I have mainly developed in Ruby and Python but I'm also refreshing my skills using C++ as well as a myriad of other technologies. Even though I've been focused on software development, I like to think of myself as willing to learn and contribute to any IT related field! All projects listed are also available on my github. Besides programming I love to cook and garden in my free time.</p>
           <p>
           </p>
           <p><img src="Media/IMG_1385.JPG"></img>
@@ -66,14 +64,15 @@
   <section id="this3">
     <section class="section section-a">
       <div class="container animatedParent animateOnce">
-        <h1 class="animated fadeInDown underlined_text">Projects</h1>
-        <button class="accordion">Project 1</button>
+        <h1 class="animated fadeIn underlined_text">Projects</h1>
+        <button class="accordion">New Development Portfolio/Blog</button>
         <div class="panel grid-container2">
           <p></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facilis fugiat soluta, ipsa tempora atque voluptas adipisci ab sequi, unde excepturi, cupiditate dolorem debitis id dolorum numquam quibusdam? Animi assumenda labore aliquid
-            hic, magni consequuntur consequatur praesentium vero quaerat doloribus.</p>
+          <p>This new and improved portfolio I built using RubyOnRails to be much more multi-purpose than the portfolio site you're currently on. I decided to make this one with the ability for visitors to make accounts, post comments, and discuss my future blog posts. While I am currently putting the finishing touches on it and should use it to replace this one soon, it is already live on Heroku and fully functional. 
+            <a href = "https://dev-portfolio-vroom.herokuapp.com" target="_blank">Click here to go to site or click on the image for a closer look</a> 
+          </p>
           <p>
-            <img class="myImg" src="Media/danny-devito.jpg" alt="Danny Devito"></img>
+            <img class="myImg" src="Media/blog.png"></img>
             <div id="myModal" class="modal">
               <span class="close">×</span>
               <img class="modal-content" id="img01">
@@ -81,13 +80,14 @@
             </div>
           </p>
         </div>
-        <button class="accordion">Project 2</button>
+        <button class="accordion">IOS Calculator</button>
         <div class="panel grid-container2">
           <p></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, maxime mollitia nihil sed hic in a similique totam voluptate. Sunt saepe quod numquam voluptatem porro eius unde adipisci distinctio eveniet aspernatur, atque, deleniti similique.
-            Ipsam doloribus veritatis, nostrum ratione voluptatibus.</p>
+          <p>This project was my first time using Swift to make an actual app rather than just learning the basics. While it's not a very complicated app, I was proud of making something I actually use on my phone. Currently this calculator can accomplish all basic functions and it fits to any model/size of Apple product. 
+            <a href = "https://github.com/vroomvroom1/calculator-app-ios" target="_blank">Click here to go to github or click on the image for a closer look</a> 
+          </p>
           <p>
-            <img class="myImg" src="Media/danny-devito.jpg" alt="Danny Devito"></img>
+            <img class="myImg" src="Media/calculator.png"></img>
             <div id="myModal" class="modal">
               <span class="close">×</span>
               <img class="modal-content" id="img01">
@@ -95,13 +95,14 @@
             </div>
           </p>
         </div>
-        <button class="accordion">Project 3</button>
+        <button class="accordion">MEAN Bookstore</button>
         <div class="panel grid-container2">
           <p></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto in odio repellat consequuntur consectetur commodi debitis. Voluptatem animi tempora voluptas, expedita voluptatibus quia, quos quae cumque dolorum veritatis omnis odio qui,
-            similique? Tempora at assumenda minus ratione ipsum, ipsam quidem.</p>
+          <p>This project I worked on is built with the MEAN stack and has basic CRUD functionality. It showcases the ability to add, edit, and delete books with their information. The front end is also built using bootstrap as I wanted to focus on using Node and MongoDB and use a simple design. This project is so far only optimized for local use but it is available on my github.
+            <a href = "https://github.com/vroomvroom1/bookstore" target="_blank">Click here to go to site or click on the image for a closer look</a> 
+          </p>
           <p>
-            <img class="myImg" src="Media/danny-devito.jpg" alt="Danny Devito"></img>
+            <img class="myImg" src="Media/mean.png"></img>
             <div id="myModal" class="modal">
               <span class="close">×</span>
               <img class="modal-content" id="img01">
@@ -109,7 +110,7 @@
             </div>
           </p>
         </div>
-        <button class="accordion">Project 4</button>
+      <!--   <button class="accordion">Project 4</button>
         <div class="panel grid-container2">
           <p></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto error impedit dolor voluptate vitae, eos, repellendus tempore exercitationem pariatur quisquam earum facere, odio dignissimos optio? Autem, illo, corporis, eum optio voluptas beatae
@@ -122,17 +123,17 @@
               <div id="caption"></div>
             </div>
           </p>
-        </div>
+        </div> -->
       </div>
     </section>
   </section>
 
   <!-- Blog Section -->
 
-  <section id="this4">
+  <!-- <section id="this4">
     <section class="section section-a">
       <div class="container animatedParent animateOnce">
-        <h1 class="animated fadeInDown underlined_text">Blog</h1>
+        <h1 class="animated fadeIn underlined_text">Blog</h1>
         <div class="grid-container">
           <p></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eaque blanditiis fuga ab reiciendis facilis, iste quis nihil, quo tenetur dolorem maiores quia cum ducimus quasi eos adipisci. Eaque soluta, libero vitae accusantium pariatur
@@ -141,19 +142,17 @@
         </div>
       </div>
     </section>
-  </section>
+  </section> -->
 
   <!-- Contact Me -->
 
   <section id="this5">
     <section class="section section-a">
       <div class="container animatedParent animateOnce">
-        <h1 class="animated fadeInDown underlined_text">Contact Me</h1>
+        <h1 class="animated fadeIn underlined_text">Contact Me</h1>
         <div class="grid-container">
           <p></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eaque blanditiis fuga ab reiciendis facilis, iste quis nihil, quo tenetur dolorem maiores quia cum ducimus quasi eos adipisci. Eaque soluta, libero vitae accusantium pariatur
-            eveniet. Aspernatur consectetur natus delectus quae minus consequatur, id pariatur cumque quas omnis, repellendus laborum, harum molestias at maiores aliquam voluptatum veniam. Asperiores tempore, laboriosam quis provident consectetur assumenda
-            dolorem officiis. Maiores ipsum quidem, sed provident debitis, similique ut vero numquam quisquam tempore eligendi, voluptatum veniam!</p>
+          <p>On the icons below I have provided links to all of my social media sites/email. Please contact me whenever you can to find out more infomation about me. Thank you!</p>
         </div>
       </div>
     </section>
